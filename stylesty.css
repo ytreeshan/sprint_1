@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: rgb(27, 227, 20);
+}
+#smallerText{
+    text-align: center;
+    font-size: 13px;
+    
+    
+}
+p
+{
+    color: limegreen;
+}
