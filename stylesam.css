@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3, p, .fun-facts-h2 {
+    text-align: center;
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 32px;
+}
+
+nav {
+    background-color: #4a90e2;
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    background-color: transparent;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+h1 {
+    color: #4a90e2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.skill {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    font-size: 14px;
+}
+
+#introduction {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2edfa;
+}
+
+#introduction h2, .fun-facts-h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#profile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#profile img {
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#application-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#application-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#application-form input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#application-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#application-form button:hover {
+    background-color: #0056b3;
+}
